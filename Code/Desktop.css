@@ -40,7 +40,14 @@
         margin-top: 40px;
         width: 90%;
         grid-area: 3 / 1 / 4 / 4;
-        margin-left: 20px;
+        margin-left: 60px;
+
+    }
+    .numbered-images-container article{
+        margin-left: 15px;
+    }
+    .numbered-images-container p{
+        font-weight: bold
 
     }
 

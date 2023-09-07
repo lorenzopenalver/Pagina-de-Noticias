@@ -84,7 +84,7 @@
 
     .description-text p {
         font-size: 1.6rem;
-        margin: 0 auto;
+        margin: 20px auto 0 auto;
         color: #C5C6CD;
         width: 90%;
     }

@@ -72,7 +72,9 @@
         display: flex;
         justify-content: space-between;
     }
-    
+    header .menu-options div a:hover{
+        color: #F05D50;
+    }
     .web-components {
         display: flex;
     

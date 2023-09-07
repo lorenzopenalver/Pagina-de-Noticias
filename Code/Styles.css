@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ 
+}
+header .logo-icon{
+    width: 38px;
+    height: 25px;
+    margin: 20px 0 20px 10px;
+}
+header .menu-icon{
+    width: 38px;
+    height: 20px;
+    margin: 20px 20px 10px 0
+}
+.web-container{
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.web-container .img{
+    width: 90%;
+    height: 250px;
+    background-image: url("/assets/images/image-web-3-mobile.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.web-components{
+    width: 100%;
+}
+
+.web-container h1{
+    margin-left: 10px;
+    font-size: 3rem;
+   font-weight: bolder; 
+    margin-top: 10px;
+    width: 90%;
+    color: #000019;
+}
+.web-container p{
+    width: 90%;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.web-container button{
+    font-family: 'Inter', sans-serif;
+    margin-left: 10px;
+    width: 50%;
+    background-color: #F05D50;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    border: none;
+    max-width: 150px;
+    padding: 10px 20px;
+}
+
+/* Brand News Section */
+
+.brand-news-container{
+    width: 90%;
+    margin: 30px auto;
+    background-color: #000019;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family:'Inter', sans-serif;
+}
+.brand-news-container h1{
+    color: #E8AA53;
+    margin: 15px 0 10px 15px;
+    font-size: 1.6rem;
+}
+.brand-news-container a{
+    color:  white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.brand-news-container p {
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.brand-new-cards-border{
+    border-top: 1px rgba(255, 255, 255, 0.692) solid;
+    padding-top: 15px;
+    width: 90%;
+}
+.brand-new-cards-border2{
+    border-bottom: 1px white solid;
+    padding-bottom: 15px;
+}
+/* Numbered Images Container */
+
+.numbered-images-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-family:'Inter', sans-serif;
+}
+.numbered-images-container div{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    margin: 20px auto;
+}
+.numbered-images-container div img{
+    width: 30%;
+}
+.numbered-images-container div article h1{
+    color: #C5C6CD;
+    font-size: 2.1rem;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.numbered-images-container div article h3{
+    color: black;
+    font-size: 1.343rem;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.numbered-images-container div article p{
+    font-size: 1.25rem;
+    color: rgba(110, 110, 110, 0.692);
+
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+/* Inactive */
+.inactive{
+    display: none;
+}
+.menu-options{
+    
+    position: absolute;
+    align-items: end;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 200px;
+    height: 100vh;
+}
+.menu-options img{
+    width: 15%;
+position: absolute;
+right: 20px;
+top: 20px;
+
+}
+.menu-options div{
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    width: 100%;
+}
+.menu-options div a{
+margin-left: 20px;
+margin-top: 20px;
+font-size: 1.6rem;
+text-decoration: none;
+letter-spacing: 0.5px;
+color: black;
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+}
+.oscuro{
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 100vw;
+    position: absolute;
+    height: 100vh;
+}

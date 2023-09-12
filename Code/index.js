@@ -14,6 +14,14 @@ function windowResize() {
     }
     
 }
+/* document.addEventListener("click", (event)=>{
+    const target = event.target
+    if (aside.contains(target)){
+        console.log(target);
+        aside.classList.add("inactive")
+        shadowing.classList.add("inactive")
+    }
+}) */
 function openMenu() {
     if (aside.classList.contains("inactive")){
         shadowing.classList.remove("inactive")
@@ -28,6 +36,7 @@ function closeMenu() {
         aside.classList.add("inactive")
         shadowing.classList.add("inactive")
     }
+   
     
 }
 closeIcon.addEventListener("click", closeMenu)
